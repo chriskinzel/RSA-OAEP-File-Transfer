@@ -1,5 +1,5 @@
 # RSA OAEP File Transfer
-This project provides the ability for a server and client program to securely transfer files using a hybrid encryption system that uses 1024 bit RSA with the Optimal Asymmetric Encryption Padding scheme to distribute a 128-bit AES symmetric cipher key that is then used for encryption and decryption of the file.
+This project provides the ability for a server and client program to securely transfer files using a hybrid encryption system that uses 1024 bit RSA with the Optimal Asymmetric Encryption Padding scheme to distribute a 128-bit AES symmetric block cipher key that is then used for encryption and decryption of the file.
 
 # Features
 - Secure random generation of safe prime numbers for RSA keys
