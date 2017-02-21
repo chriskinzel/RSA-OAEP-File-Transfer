@@ -12,10 +12,10 @@ This project provides the ability for a server and client program to securely tr
 
 # Compilation & Running
 In project directory  
-     javac *.java  
+````javac *.java````  
   
 To run on client side  
-     java Client [debug] `<hostname>` `<port>`  
+````java Client [debug] `<hostname>` `<port>`````  
   
 To run on server side  
-     java Server [debug] `<port>`
+````java Server [debug] `<port>`````
